@@ -3,8 +3,8 @@
 ## Boot Start
 1. Install zookeeper, if using mac, refer to https://www.jianshu.com/p/b889b86536be
 2. Create a mysql database called dubbotest and inside that build a table called dubbo including column id and name
-3. Configure the application.properties file in the provider file
-4. Run provider and Consumer simultaneously
+3. Configure the application.properties file in the Provider Folder
+4. Run Provider and Consumer simultaneously
 5. Visit http://localhost:8888/hello to get intgeract with a hello message, or just http://localhost:8888 to retrieve data from local mysql database
 6. Refer to https://github.com/alibaba/dubbo-spring-boot-starter for Basic setup
 
