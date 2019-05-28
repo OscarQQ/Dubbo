@@ -19,11 +19,14 @@ Refer to https://dubbo.apache.org/en-us/
 4. Database setup is similar to my previuos Spring Boot Project, link: https://github.com/OscarQQ/Springboot
 
 ## Install Dubbo-Admin 
-1. git clone https://github.com/apache/dubbo-admin.git
-2. cd dubbo-admin
-3. mvn clean package 
-4. cd dubbo-admin-distribution/target
-5. java -jar dubbo-admin-0.1.jar
-6. visit localhost:8080
+1. git clone `https://github.com/apache/dubbo-admin.git`
+2. cd `dubbo-admin`
+3. Build
+
+    > - `mvn clean package`  
+4. cd `dubbo-admin-distribution/target`
+5. Run
+   > - `java -jar dubbo-admin-0.1.jar`
+6. visit `http://localhost:8080`
 
 refer to https://dubbo.apache.org/en-us/docs/admin/introduction.html
