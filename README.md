@@ -1,5 +1,5 @@
-# Dubbo (A Distributed System Designed by Alibaba)
-
+# Dubbo 
+A Distributed System Designed by Alibaba
 ## Boot Start
 1. Install zookeeper, if using mac, refer to https://www.jianshu.com/p/b889b86536be
 2. Create a mysql database called dubbotest and inside that build a table called dubbo including column id and name
