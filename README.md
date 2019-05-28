@@ -17,3 +17,13 @@ Refer to https://dubbo.apache.org/en-us/
 2. The @Reference annotation in the Consumer Controller has a url link fixed
 3. Individul module for thest three parts. Service is a Maven module. the other two are spring initializers, In IntelliJ, go File --> New --> Mudule
 4. Database setup is similar to my previuos Spring Boot Project, link: https://github.com/OscarQQ/Springboot
+
+## Install Dubbo-Admin 
+git clone https://github.com/apache/dubbo-admin.git
+cd dubbo-admin
+mvn clean package 
+cd dubbo-admin-distribution/target
+java -jar dubbo-admin-0.1.jar
+visit localhost:8080
+
+refer to https://dubbo.apache.org/en-us/docs/admin/introduction.html
